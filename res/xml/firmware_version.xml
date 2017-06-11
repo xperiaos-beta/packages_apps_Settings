@@ -30,6 +30,14 @@
         settings:enableCopying="true"
         settings:controller="com.android.settings.deviceinfo.firmwareversion.FirmwareVersionDetailPreferenceController"/>
 
+    <!-- lucid version -->
+    <Preference
+        android:key="lucid_version"
+        android:title="@string/lucid_version"
+        android:summary="@string/summary_placeholder"
+        settings:enableCopying="true"
+        settings:controller="com.android.settings.deviceinfo.firmwareversion.LucidVersionPreferenceController"/>
+
     <!-- Security patch -->
     <Preference
         android:key="security_key"
