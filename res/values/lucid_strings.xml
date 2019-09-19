@@ -19,4 +19,7 @@
     <!-- lucidOS version -->
     <string name="lucid_version">lucidOS version</string>
 
+    <!-- Strings for suggestion card's close button [CHAR LIMIT=20] -->
+    <string name="suggestion_button_close">Close</string>
+
 </resources>
