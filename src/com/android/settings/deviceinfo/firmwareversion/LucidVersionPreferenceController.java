@@ -26,6 +26,8 @@ public class LucidVersionPreferenceController extends BasePreferenceController {
 
     @VisibleForTesting
     private static final String LUCID_VERSION_PROP = "ro.lucid.version";
+    @VisibleForTesting
+    private static final String LUCID_VERSION_CODE_PROP = "ro.lucid.version_code";
 
     public LucidVersionPreferenceController(Context context, String preferenceKey) {
         super(context, preferenceKey);
@@ -38,7 +40,11 @@ public class LucidVersionPreferenceController extends BasePreferenceController {
 
     @Override
     public CharSequence getSummary() {
-        return SystemProperties.get(LUCID_VERSION_PROP,
+        String lucidVersion = SystemProperties.get(LUCID_VERSION_PROP,
                 mContext.getString(R.string.device_info_default));
+        String lucidVersionCode = SystemProperties.get(LUCID_VERSION_CODE_PROP,
+                mContext.getString(R.string.device_info_default));
+
+        return lucidVersionCode + " " + lucidVersion;
     }
 }
