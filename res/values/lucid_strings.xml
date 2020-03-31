@@ -17,7 +17,10 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
     <!-- lucidOS version -->
-    <string name="lucid_version">lucidOS version</string>
+    <string name="lucid_version">Lucid version</string>
+    <string name="lucid_version_code">Lucid version code</string>
+    <string name="lucid_version_keywords">lucid, lucid version</string>
+    <string name="lucid_build_number">Lucid build number</string>
 
     <!-- Strings for suggestion card's close button [CHAR LIMIT=20] -->
     <string name="suggestion_button_close">Close</string>
