@@ -1,26 +1,7 @@
-<!--
-    Copyright (C) 2017 The Android Open Source Project
-
-    Licensed under the Apache License, Version 2.0 (the "License");
-    you may not use this file except in compliance with the License.
-    You may obtain a copy of the License at
-
-         http://www.apache.org/licenses/LICENSE-2.0
-
-    Unless required by applicable law or agreed to in writing, software
-    distributed under the License is distributed on an "AS IS" BASIS,
-    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-    See the License for the specific language governing permissions and
-    limitations under the License.
--->
-<vector xmlns:android="http://schemas.android.com/apk/res/android"
-        android:autoMirrored="true"
-        android:width="24dp"
-        android:height="24dp"
-        android:viewportWidth="24.0"
-        android:viewportHeight="24.0"
-        android:tint="?android:attr/colorControlNormal">
-    <path
-        android:pathData="m3.8,22l17.19,0c0.55,0 1.01,-0.45 1.01,-1.01l0,-17.19c0,-0.71 -0.87,-1.08 -1.38,-0.57l-17.38,17.39c-0.51,0.51 -0.15,1.38 0.56,1.38z"
-        android:fillColor="#FFFFFFFF"/>
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:androidprv="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:tint="?android:attr/colorControlNormal" android:height="24dp" android:width="24dp" android:viewportWidth="24" android:viewportHeight="24">
+    <path android:fillColor="#ff000000" android:pathData="M17.7,7.3l0,13.9l3.5,0l0,-17.4z"/>
+    <path android:fillColor="#ff000000" android:pathData="M13.1,11.9l0,9.3l3.4,0l0,-12.7z"/>
+    <path android:fillColor="#ff000000" android:pathData="M8.5,16.5l0,4.7l3.4,0l0,-8.1z"/>
+    <path android:fillColor="#ff000000" android:pathData="M3.8,21.2l3.5,0l0,-3.5z"/>
 </vector>
